@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hate"
+version = "0.1.0"
+description = ""
+authors = ["chrisaddy <chris.william.addy@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tabula-py = "^2.3.0"
+sf-hamilton = "^1.7.0"
+gr = "^1.20.0"
+graphviz = "^0.20"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
